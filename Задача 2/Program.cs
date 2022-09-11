@@ -1,4 +1,5 @@
-﻿int GRN()//"Генератор случайных чисел"
+﻿Console.Clear();
+int GRN()//"Генератор случайных чисел"
 {
     int n = new Random().Next(100, 1000);
     return n;
